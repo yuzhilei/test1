@@ -158,7 +158,7 @@ public class ZXingUtil {
     }  
     
     public static void main(String[] args) { 
-        encodeQRCodeImage("http://w3.zaiyiqiba.com/love.php?make=1&id=429146", null, "/Users/luofan/Desktop/e.jpg", 400, 400, null); 
+        encodeQRCodeImage("http://w3.zaiyiqiba.com/love.php?make=1&id", null, "/Users/luofan/Desktop/e.jpg", 400, 400, null); 
        // System.out.println(decodeQRCodeImage("E:/download/myQRCodeImage.jpg", null)); 
     	
     	System.out.println(System.getProperty("user.dir"));
